@@ -26,11 +26,11 @@ const Topbar: React.FC = () => (
                             <Link href="/components/info/guider" className="text-decoration-none text-dark d-block">Guider's</Link>
                         </NavLink>
                         <NavDropdown title="More" id="basic-nav-dropdown">
-                            <DropdownItem>
+                            <DropdownItem as={"div"}>
                                 <Link href="/components/info/contact" className="text-decoration-none text-dark d-block"> Contact Us</Link>
                             </DropdownItem>
                             <DropdownDivider />
-                            <DropdownItem>
+                            <DropdownItem  as={"div"}>
                                 <Link href="/components/info/developer" className="text-decoration-none text-dark d-block"> Developer Profile</Link>
                             </DropdownItem>
                         </NavDropdown>
